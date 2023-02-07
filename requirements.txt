@@ -1,6 +1,5 @@
 -f https://download.pytorch.org/whl/torch_stable.html
-torch==1.6.0+cpu
-torchvision==0.7.0+cpu
+torch==11.6+cpu
 numpy
 torch
 tqdm
