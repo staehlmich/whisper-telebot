@@ -1,1 +1,1 @@
-worker: python3 whisper_telebot.py
+web: python3 whisper_telebot.py
