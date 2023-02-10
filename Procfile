@@ -1,1 +1,1 @@
-web: python3 whisper_telebot.py
+app: python3 whisper_telebot.py
