@@ -74,6 +74,7 @@ def handle_voice(message):
     file_path = bot.get_file_url(file_id)
 
     # Transcribe the audio using Whisper AI
+    print(file_path)
     response = whisper_transcribe(file_path)
     text = response
 
