@@ -4,5 +4,6 @@ numpy
 torch
 tqdm
 more-itertools
+ffmpeg-python==0.2.0
 pyTelegramBotAPI==4.9.0
 openai-whisper
