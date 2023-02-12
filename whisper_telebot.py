@@ -72,6 +72,7 @@ def handle_voice(message):
     file_id = message.voice.file_id
     # Get url to audio file.
     file_path = bot.get_file_url(file_id)
+    (file_path)
 
     # Transcribe the audio using Whisper AI
     response = whisper_transcribe(file_path)
