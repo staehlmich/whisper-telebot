@@ -9,3 +9,5 @@ Save the API token in config.py.
 ## Step 2: Deploy bot to Heroku
 In order for the bot to run in a serverless manner, we need to deploy it to a service.  
 Follow [these instructions](https://devcenter.heroku.com/articles/getting-started-with-python) to create a Heroku account and deploy the bot.
+Check that your python packages in requirements.txt match the latest [pytorch](https://pytorch.org/get-started/locally/) release and [heroku stack](https://devcenter.heroku.com/categories/stacks). 
+Install pytorch cpu package, to meet the required slug-size by heroku.
